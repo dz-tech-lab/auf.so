@@ -19,7 +19,7 @@ for board/donor visibility.
   GA — TBD] ahead of each fiscal year.
 - Budget lines should map to `participants/support-offered.md` (cost per
   participant/track) and general operating costs.
-- See `operations/budget-2026.md` for the year-1 draft budget.
+- See `operations/budget-2026-2028.md` for the draft 3-year budget.
 
 ## Reporting
 
