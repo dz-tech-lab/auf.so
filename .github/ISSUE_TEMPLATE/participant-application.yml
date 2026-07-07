@@ -1,0 +1,53 @@
+name: Participant application
+description: Track an application to join an Auf cohort — see participants/application.md.
+title: "[Application] "
+labels: ["applicant/received"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is the live tracker for one applicant — see `participants/application.md`.
+
+        Auf supports founders, researchers, and people who don't fit neatly into either —
+        see `participants/model.md`. Describe your track in your own words below rather
+        than picking from a fixed list.
+
+        Do not include financial need, immigration/residency status, or other sensitive
+        personal data anywhere in this issue — see `governance/data-protection.md`.
+  - type: input
+    id: name
+    attributes:
+      label: Name / team name
+    validations:
+      required: true
+  - type: input
+    id: track
+    attributes:
+      label: How would you describe what you're doing?
+      description: e.g. "founder", "researcher", "a bit of both" — see participants/model.md
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What are you building or researching?
+    validations:
+      required: true
+  - type: input
+    id: stage
+    attributes:
+      label: Stage
+      description: e.g. idea, prototype, early traction, published research, spin-off decision pending
+  - type: input
+    id: zh_connection
+    attributes:
+      label: ETH / Zurich connection
+  - type: textarea
+    id: support
+    attributes:
+      label: What support are you looking for?
+      description: See participants/support-offered.md for what's on offer.
+  - type: textarea
+    id: other
+    attributes:
+      label: Anything else we should know?

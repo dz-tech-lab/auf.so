@@ -1,0 +1,52 @@
+name: Stale application check
+
+# Weekly check for participant applications idle >14 days in a
+# non-terminal stage — see participants/application.md.
+on:
+  schedule:
+    - cron: "0 8 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  issues: write
+
+jobs:
+  check-stale:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comment on stale applications
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const NON_TERMINAL_LABELS = [
+              "applicant/received",
+              "applicant/reviewing",
+              "applicant/interview",
+            ];
+            const STALE_DAYS = 14;
+            const staleBefore = new Date(Date.now() - STALE_DAYS * 24 * 60 * 60 * 1000);
+
+            for (const label of NON_TERMINAL_LABELS) {
+              const issues = await github.paginate(github.rest.issues.listForRepo, {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                state: "open",
+                labels: label,
+                per_page: 100,
+              });
+
+              for (const issue of issues) {
+                const lastUpdated = new Date(issue.updated_at);
+                if (lastUpdated < staleBefore) {
+                  await github.rest.issues.createComment({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    issue_number: issue.number,
+                    body:
+                      `This application has been in \`${label}\` for over ${STALE_DAYS} days ` +
+                      "with no update. See `participants/application.md` for the process — " +
+                      "please move it forward or close it out.",
+                  });
+                }
+              }
+            }

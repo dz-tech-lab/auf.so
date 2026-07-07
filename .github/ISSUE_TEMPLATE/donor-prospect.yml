@@ -1,0 +1,79 @@
+name: Donor / supporter prospect
+description: Track a new donor or stakeholder relationship, from first identification through the pipeline.
+title: "[Donor] "
+labels: ["donor/lead"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is the live tracker for one donor/stakeholder relationship — see `donors/pipeline.md`.
+
+        Only enter basic business contact info (name, org, email, LinkedIn) here.
+        Never include payment details, or anything else covered by `governance/data-protection.md`.
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: See donors/strategy.md for what each category means.
+      options:
+        - Founder
+        - Family business
+        - Investor
+        - Political / government
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: org
+    attributes:
+      label: Organization / company
+  - type: input
+    id: role
+    attributes:
+      label: Role
+  - type: input
+    id: domain
+    attributes:
+      label: Domain / focus area
+  - type: input
+    id: location
+    attributes:
+      label: Location
+  - type: input
+    id: email
+    attributes:
+      label: Email (optional)
+  - type: input
+    id: linkedin
+    attributes:
+      label: LinkedIn (optional)
+  - type: input
+    id: zh_connection
+    attributes:
+      label: ZH / ETH connection
+      description: How are they connected to the Zurich / ETH ecosystem?
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - High
+        - Medium
+        - Low
+    validations:
+      required: true
+  - type: input
+    id: introduced_by
+    attributes:
+      label: Introduced by
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Non-sensitive context only — no financial details, no payment info.

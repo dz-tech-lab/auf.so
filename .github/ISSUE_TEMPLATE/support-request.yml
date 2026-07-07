@@ -1,0 +1,43 @@
+name: Support request
+description: An active participant requesting a specific piece of support (mentorship, intro, space, funding).
+title: "[Support] "
+labels: ["support-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For active participants requesting something concrete — see
+        `participants/support-offered.md` for what's generally on offer.
+  - type: input
+    id: requested_by
+    attributes:
+      label: Requested by
+      description: Participant name or link to their profile under participants/profiles/
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of support
+      options:
+        - Mentorship
+        - Introduction / network
+        - Space
+        - Funding
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What's needed?
+    validations:
+      required: true
+  - type: input
+    id: needed_by
+    attributes:
+      label: Needed by (date, if time-sensitive)
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
