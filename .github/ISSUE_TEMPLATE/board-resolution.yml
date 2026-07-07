@@ -1,0 +1,39 @@
+name: Board resolution proposal
+description: Propose a board resolution for discussion before it's formally passed and filed.
+title: "[Resolution] "
+labels: ["board-resolution"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this to discuss a proposed resolution before a vote. Once passed, file the
+        final text using `governance/templates/board-resolution-template.md` under
+        `governance/minutes/` — this issue is for discussion, not the official record.
+  - type: input
+    id: title
+    attributes:
+      label: Proposed resolution title
+    validations:
+      required: true
+  - type: textarea
+    id: text
+    attributes:
+      label: Proposed resolution text
+      description: State exactly what is being resolved, in a form that could be quoted later.
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - Board meeting resolution
+        - Circular / written resolution
+    validations:
+      required: true

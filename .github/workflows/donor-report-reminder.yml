@@ -1,0 +1,39 @@
+name: Donor report reminder
+
+# Opens a reminder issue at the start of each quarter — see donors/reporting.md
+# for cadence and donors/comms/annual-report-outline.md for content.
+on:
+  schedule:
+    - cron: "0 8 1 1,4,7,10 *"
+  workflow_dispatch: {}
+
+permissions:
+  issues: write
+
+jobs:
+  open-reminder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create quarterly donor update reminder
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const now = new Date();
+            const quarter = Math.floor(now.getUTCMonth() / 3) + 1;
+            const title = `Quarterly donor update — Q${quarter} ${now.getUTCFullYear()}`;
+            const body = [
+              "Time to prepare the quarterly donor update.",
+              "",
+              "- See `donors/reporting.md` for cadence and owner.",
+              "- See `donors/comms/annual-report-outline.md` if this coincides with the annual report.",
+              "- Pull aggregate figures from `operations/finance.md` — no per-donor amounts.",
+              "",
+              "This issue was opened automatically by `.github/workflows/donor-report-reminder.yml`."
+            ].join("\n");
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body,
+              labels: ["donor-report-reminder"],
+            });
