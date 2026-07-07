@@ -5,10 +5,10 @@ prepared for the founding team (bilingual DE/EN, German prevails per Art.
 19 below), imported from the founding team's Word draft. It replaces the
 earlier generic skeleton in this file. **This has not been adopted at a
 Gründungsversammlung and has not been reviewed by counsel for filing —
-treat it as a working draft**, and see the two flags immediately below
-before treating anything here as final.
+treat it as a working draft**, and see the flag immediately below before
+treating anything here as final.
 
-## ⚠️ Two open issues to resolve before adoption
+## ⚠️ One open issue to resolve before adoption
 
 1. **Legal name mismatch.** The title block of the draft names the
    association **"Auf"**, but Art. 1 (Firma und Sitz) — the operative
@@ -19,18 +19,16 @@ before treating anything here as final.
    actual legal name before this goes to a Gründungsversammlung** — if
    it's "Auf," Art. 1 below needs correcting; if it's "Antimatter," that
    has much wider implications (this repo, comms, tax filing, etc.).
-2. **Missing article numbers for the tax-exemption clauses.** The draft
-   uses Word auto-numbering for Art. 1–15 (computed below) and again for
-   the final two articles, but the three clauses required verbatim by
-   the cantonal tax exemption application (Art. 1.12 on the form — see
-   `governance/tax-exemption-application-2026.pdf`) have numbering
-   switched off in the source file. They currently have **no article
-   number at all.** The numbering below (Art. 16–18) is my proposed fix
-   — it slots them in where they sit in the document and renumbers the
-   final two articles from 16–17 to 19–20 accordingly — but this is a
-   suggestion, not yet reflected in an adopted document, and needs
-   sign-off (ideally from whoever is advising on the tax filing) before
-   the Gründungsversammlung.
+
+The article numbering for the tax-exemption clauses (Art. 16–18 below) —
+previously flagged as missing and only proposed — has been confirmed by
+the founding team: Art. 16 Verzicht auf Erwerbs- und Selbsthilfezwecke,
+Art. 17 Angemessene Vergütung des Vorstands (Ehrenamtlichkeit), Art. 18
+Auflösungsklausel, with Art. 19–20 for the remaining two articles. This
+is reflected in `governance/tax-exemption-application-2026.pdf`. It
+still needs to be carried into the actual Word source (where numbering
+for that section is currently switched off) before the statutes are
+formally adopted.
 
 Everything else below is transcribed as drafted, with `[bracketed]`
 placeholders exactly where the draft itself left them open.
@@ -297,17 +295,18 @@ it appoints.*
 
 ## 8. Steuerbefreiung — Tax Exemption
 
-> ⚠️ See the numbering flag at the top of this file — Art. 16–18 below
-> are a proposed numbering, not yet adopted.
+> Numbering confirmed by the founding team — still needs to be carried
+> into the Word source, where numbering for this section is currently
+> switched off (see the flag at the top of this file).
 
-### [Art. 16] Verzicht auf Erwerbs- und Selbsthilfezwecke — Non-pursuit of Commercial or Self-Serving Purposes
+### Art. 16 Verzicht auf Erwerbs- und Selbsthilfezwecke — Non-pursuit of Commercial or Self-Serving Purposes
 
 Der Verein verfolgt weder Erwerbs- noch Selbsthilfezwecke.
 
 *The Association does not pursue any commercial or self-serving
 purposes.*
 
-### [Art. 17] Angemessene Vergütung des Vorstands — Appropriate Remuneration of the Board
+### Art. 17 Angemessene Vergütung des Vorstands — Appropriate Remuneration of the Board
 
 Ehrenamtlichkeit: Die Mitglieder des Vereinsvorstandes sind ehrenamtlich
 tätig und haben grundsätzlich nur Anspruch auf Entschädigung ihrer
@@ -319,7 +318,7 @@ werden.
 principle only to reimbursement of actual expenses; appropriate
 compensation may be paid for special services by individual members.*
 
-### [Art. 18] Auflösungsklausel — Dissolution Clause
+### Art. 18 Auflösungsklausel — Dissolution Clause
 
 Die nach Auflösung des Vereins verbleibenden Mittel sind einer
 steuerbefreiten Institution mit Sitz in der Schweiz mit gleicher oder
@@ -332,7 +331,7 @@ is excluded.*
 
 ## 9. Allgemeines — General
 
-### [Art. 19] Vorrang der deutschen Fassung — Priority of the German Version
+### Art. 19 Vorrang der deutschen Fassung — Priority of the German Version
 
 Von diesen Statuten existieren eine deutsche und eine englische Version.
 Die deutsche Fassung ist massgeblich.
@@ -340,7 +339,7 @@ Die deutsche Fassung ist massgeblich.
 *These articles exist in German and English; the German version
 prevails.*
 
-### [Art. 20] Inkrafttreten — Entry into Force
+### Art. 20 Inkrafttreten — Entry into Force
 
 Diese Statuten wurden an der Gründungsversammlung vom **[Datum]**
 angenommen und sind mit diesem Datum in Kraft getreten.
@@ -362,7 +361,8 @@ ___________________________
 
 ---
 
-*Next steps: resolve the two flags at the top of this file, legal review,
+*Next steps: resolve the name flag at the top of this file, carry the
+confirmed Art. 16–20 numbering into the Word source, legal review,
 adoption at Gründungsversammlung, then notarization/registration as
 applicable and update of `governance/entity-registry.md` with the
 resulting UID.*

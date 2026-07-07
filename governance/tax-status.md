@@ -14,7 +14,7 @@ donors and foundations. It typically requires:
 - a non-profit purpose serving the public good (not just members'
   private interest) — see `governance/statutes.md` Art. 2
 - no distribution of profit or assets to members, including on dissolution
-  — see `governance/statutes.md` [Art. 18] (Auflösungsklausel)
+  — see `governance/statutes.md` Art. 18 (Auflösungsklausel)
 - activity that actually matches the stated purpose in practice
 
 ## Draft application on file
@@ -26,10 +26,9 @@ based on the draft statutes and is attached at
 **This is a draft, not a submission-ready document.** Before it goes to
 the Steueramt:
 
-- Resolve the two flags at the top of `governance/statutes.md` (legal
-  name mismatch; missing article numbers for the three tax-exemption
-  clauses) — the form's answers reference articles that don't formally
-  exist yet.
+- Resolve the legal name mismatch flagged at the top of
+  `governance/statutes.md` (statutes say "Antimatter" in the operative
+  Art. 1, everything else says "Auf").
 - Have someone with tax expertise (board treasurer and/or external
   counsel) sanity-check questions **1.1, 1.6, 1.7, and 1.8** on the form
   against the purpose clause (Art. 2 of the statutes). Those four
@@ -40,9 +39,11 @@ the Steueramt:
   cantonal practice sometimes treats as commercial/competitive rather
   than classically gemeinnützig. I did not change those checkboxes, but
   flagging this now is cheaper than a rejected application later.
-- The three text fields under question 1.12 ("Bitte Artikel nennen")
-  were deliberately left blank rather than filled with invented article
-  numbers — see the numbering flag in `governance/statutes.md`.
+- Question 1.12's three "Bitte Artikel nennen" fields are now filled
+  (Art. 16, 17, 18 — confirmed by the founding team), but that numbering
+  still needs to be carried into the statutes' Word source, where
+  numbering for that section is currently switched off — see
+  `governance/statutes.md`.
 - Fields 2.1–2.7 and the closing remarks were drafted from the statutes
   text and note several `[TBD]`s (e.g. estimated volunteer hours,
   whether the association will have paid staff, whether it will
@@ -53,7 +54,7 @@ the Steueramt:
 
 | Step | Status | Date | Notes |
 |---|---|---|---|
-| Statutes finalized (prerequisite) | in progress — draft exists, not adopted | [TBD] | See the two open flags in `governance/statutes.md` |
+| Statutes finalized (prerequisite) | in progress — draft exists, not adopted | [TBD] | See the open name-mismatch flag in `governance/statutes.md` |
 | Application form drafted | done (draft) | 2026-07-07 | See `governance/tax-exemption-application-2026.pdf`; needs the review above before submission |
 | Application submitted to cantonal tax authority | not started | [TBD] | |
 | Follow-up / clarification requests | n/a | [TBD] | |
@@ -83,8 +84,10 @@ Reference this status (once confirmed) in
 - [ ] Confirm timeline — ideally aligned with statutes adoption.
 - [ ] Confirm who owns the application (board treasurer, or external
   counsel?).
-- [ ] Resolve the legal name mismatch and missing article numbers in
-  `governance/statutes.md` before finalizing the tax exemption form.
+- [ ] Resolve the legal name mismatch in `governance/statutes.md` before
+  finalizing the tax exemption form.
+- [ ] Carry the confirmed Art. 16–20 numbering into the actual statutes
+  Word source (not just this repo's transcription).
 - [ ] Have tax counsel confirm the purpose clause's start-up investment
   language doesn't jeopardize questions 1.1/1.6/1.7/1.8 on the
   exemption form.
