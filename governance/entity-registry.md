@@ -20,7 +20,7 @@ in whatever off-repo system the founding team designates.
 | Seat (Sitz) | [Zurich / municipality — TBD] |
 | Commercial register entry | [not required for most Vereine unless conducting a commercial enterprise or by choice — confirm status; TBD] |
 | Date of foundation | [TBD — date of constituent GA] |
-| Fiscal year | [TBD — see `governance/statutes.md` Art. 7] |
+| Fiscal year | Calendar year — see `governance/statutes.md` Art. 9 |
 
 ## Signing authority
 

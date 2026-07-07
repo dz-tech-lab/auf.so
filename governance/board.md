@@ -1,7 +1,7 @@
 # Board (Vorstand)
 
 Working document for current board composition and how the board operates.
-Formal authority comes from `governance/statutes.md` (Art. 5–6); this file
+Formal authority comes from `governance/statutes.md` (Art. 13); this file
 is the practical reference and is expected to change more often than the
 statutes.
 
@@ -42,8 +42,9 @@ register / bank, if applicable, lives in
    matters, by circular/written resolution).
 2. Discussion happens in a board meeting or, for written resolutions, over
    [email/Slack — TBD channel] with a clear deadline to object.
-3. Resolutions pass by [simple majority of the board — TBD; confirm
-   against statutes Art. 5].
+3. Resolutions pass by simple majority of the votes present, with the
+   presiding member's casting vote on ties (statutes Art. 13). Quorum is
+   at least half the board.
 4. Every resolution is recorded using
    `governance/templates/board-resolution-template.md` and filed under
    `governance/minutes/`.

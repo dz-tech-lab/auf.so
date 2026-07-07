@@ -28,8 +28,8 @@ for board/donor visibility.
   annual report; per-donor amounts and any payment details never appear
   in this repo — see `governance/data-protection.md`.
 - **Statutory**: annual accounts presented to the GA per
-  `governance/statutes.md` Art. 5, and any audit obligations per Art. 69b
-  ZGB if applicable — confirm threshold with the founding team.
+  `governance/statutes.md` Art. 12, and audited per Art. 14 if statutory
+  thresholds are met (or if the GA opts into an audit) — see Art. 69b ZGB.
 
 ## Open questions for the founding team
 
