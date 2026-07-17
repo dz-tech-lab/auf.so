@@ -12,10 +12,15 @@ who started it, why a Verein rather than another legal form — TBD.]
 
 ## Why it exists
 
-[The problem Auf is solving — e.g. a gap between world-class research or
-early founder energy in Zurich and the support (funding, mentorship,
-space, network) needed to turn it into something real. TBD — this should
-come from the founding team, not be invented here.]
+Auf exists to give Switzerland's strongest technical talent a standing
+resource to draw on — mentoring, fundraising help, introductions,
+events, and small non-dilutive grants — whenever they need it, rather
+than a fixed-term program they have to fit their timeline around. The
+goal is to help push Zurich to the frontiers of technology and
+industry by removing whatever slows a promising technical founder down.
+See `governance/statement-of-purpose.md` for the fuller statement this
+is drawn from (written to support the tax-exemption application, but
+substantively the same "why").
 
 ## Who it's for
 
@@ -38,11 +43,14 @@ per-cohort model; in short:
 
 ## Why the ETH/Zurich connection matters
 
-[TBD — the specific thesis for why this ecosystem, e.g. proximity to
-ETH research, density of technical talent, existing founder alumni
-network. This is likely the most donor-and-participant-facing paragraph
-in the whole repo — worth getting right with the founding team rather
-than guessing.]
+Zurich — and ETH, UZH, and ZHAW specifically — is where Auf believes
+the deepest concentration of the relevant talent already sits: people
+in the final stretch of a bachelor's, master's, or PhD, alongside
+postdocs and faculty, with world-class technical depth in their own
+field. The thesis is rooted in Zurich, but not limited to it — founders'
+ambitions (and Auf's own travel, to London, Berlin, Munich and other
+European hubs) reach well beyond Switzerland. See
+`governance/statement-of-purpose.md` for the fuller version.
 
 ## Legal form, briefly
 
@@ -55,8 +63,8 @@ team.]
 
 ## Open questions for the founding team
 
-- [ ] Fill in origin story and the specific problem being solved.
-- [ ] Fill in the ETH/Zurich ecosystem thesis.
+- [ ] Fill in the origin story (who started Auf, and when/why) — still
+  missing even though the problem/thesis are now drafted above.
 - [ ] Confirm the plain-English rationale for the Verein legal form.
 
 This document should be the most frequently revisited one in the repo as

@@ -1,30 +1,23 @@
 # Statuten / Articles of Association — Auf
 
-**Status: real draft, not yet adopted.** This reflects the draft Statuten
-prepared for the founding team (bilingual DE/EN, German prevails per Art.
-19 below), imported from the founding team's Word draft. It replaces the
-earlier generic skeleton in this file. **This has not been adopted at a
-Gründungsversammlung and has not been reviewed by counsel for filing —
-treat it as a working draft**, and see the flag immediately below before
-treating anything here as final.
+**Status: real draft, reviewed by external counsel (Schellenberg
+Wittmer, 2026-07-16), not yet adopted.** This reflects the draft
+Statuten prepared for the founding team (bilingual DE/EN, German
+prevails per Art. 19 below), imported from the founding team's Word
+draft. It replaces the earlier generic skeleton in this file. **This
+has not been adopted at a Gründungsversammlung — treat it as a working
+draft** until then.
 
-## ⚠️ One open issue to resolve before adoption
+## Resolved: legal name is "Auf"
 
-1. **Legal name mismatch — now leaning towards "Antimatter" as the
-   actual legal name.** The title block of the draft names the
-   association **"Auf"**, but Art. 1 (Firma und Sitz) — the operative
-   clause that actually establishes the legal entity — names it
-   **"Antimatter"**. External counsel (Schellenberg Wittmer) refers to
-   the entity as **"Antimatter"** throughout their July 2026 review
-   correspondence, and one of their attachments is titled "Statement of
-   Purpose**_Auf**" — consistent with "Antimatter" being the legal
-   (Verein) name and "Auf" being the public-facing brand/program name
-   the association operates under, rather than a plain leftover error.
-   That's a plausible resolution, but it's still **not confirmed** — the
-   founding team should explicitly decide whether "Auf" is meant to be a
-   registered "operating as" name alongside the legal name "Antimatter,"
-   and if so, this repo's naming (currently "Auf" throughout) should be
-   annotated accordingly rather than left ambiguous.
+**The founding team has confirmed the legal name is "Auf"** — the
+earlier "Antimatter" text in Art. 1 (Firma und Sitz) was a leftover
+working name and has been corrected below. This repo's naming was
+already consistently "Auf" everywhere else, so no other files needed
+changes on this point (see `governance/tax-status.md` for the note on
+counsel's correspondence, which had referred to the entity as
+"Antimatter" — that reflected the not-yet-corrected draft, not a
+separate legal name).
 
 The article numbering for the tax-exemption clauses (Art. 16–18 below) —
 previously flagged as missing and only proposed — has been confirmed by
@@ -46,14 +39,14 @@ placeholders exactly where the draft itself left them open.
 ### Art. 1 Firma und Sitz — Company and Registered Office
 
 Es wurde eine juristische Person gemäss Art. 60 ff. des Schweizerischen
-Zivilgesetzbuches unter dem Namen **"[Auf / Antimatter — siehe Flag
-oben]"** mit Sitz in **[politische Gemeinde]**, Schweiz, für eine
-unbeschränkte Dauer gegründet (der "Verein").
+Zivilgesetzbuches unter dem Namen **"Auf"** mit Sitz in
+**[politische Gemeinde]**, Schweiz, für eine unbeschränkte Dauer
+gegründet (der "Verein").
 
 *A legal entity has been established in accordance with art. 60 et seqq.
-of the Swiss Civil Code under the name of "[Auf / Antimatter — see flag
-above]", having its domicile at [municipality], Switzerland, for an
-indefinite duration (the "Association").*
+of the Swiss Civil Code under the name of "Auf", having its domicile at
+[municipality], Switzerland, for an indefinite duration (the
+"Association").*
 
 ### Art. 2 Zweck — Purpose
 
