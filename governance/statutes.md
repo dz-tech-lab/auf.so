@@ -10,15 +10,21 @@ treating anything here as final.
 
 ## ⚠️ One open issue to resolve before adoption
 
-1. **Legal name mismatch.** The title block of the draft names the
+1. **Legal name mismatch — now leaning towards "Antimatter" as the
+   actual legal name.** The title block of the draft names the
    association **"Auf"**, but Art. 1 (Firma und Sitz) — the operative
    clause that actually establishes the legal entity — names it
-   **"Antimatter"**. This looks like a leftover from an earlier working
-   name that wasn't fully replaced. Every other document in this repo
-   assumes the name is "Auf." **The founding team must confirm the
-   actual legal name before this goes to a Gründungsversammlung** — if
-   it's "Auf," Art. 1 below needs correcting; if it's "Antimatter," that
-   has much wider implications (this repo, comms, tax filing, etc.).
+   **"Antimatter"**. External counsel (Schellenberg Wittmer) refers to
+   the entity as **"Antimatter"** throughout their July 2026 review
+   correspondence, and one of their attachments is titled "Statement of
+   Purpose**_Auf**" — consistent with "Antimatter" being the legal
+   (Verein) name and "Auf" being the public-facing brand/program name
+   the association operates under, rather than a plain leftover error.
+   That's a plausible resolution, but it's still **not confirmed** — the
+   founding team should explicitly decide whether "Auf" is meant to be a
+   registered "operating as" name alongside the legal name "Antimatter,"
+   and if so, this repo's naming (currently "Auf" throughout) should be
+   annotated accordingly rather than left ambiguous.
 
 The article numbering for the tax-exemption clauses (Art. 16–18 below) —
 previously flagged as missing and only proposed — has been confirmed by
@@ -117,15 +123,28 @@ Der Verein besteht aus:
   (Aktivmitglieder).
 - **Passivmitgliedern**: natürliche und juristische Personen sowie
   Organisationen des öffentlichen Rechts, die den Verein finanziell oder
-  ideell unterstützen, insbesondere andere Förderorganisationen,
-  Bildungsinstitutionen sowie Gründerinnen und Gründer. Sie haben kein
-  Stimm- und Wahlrecht, besitzen jedoch ein Teilnahmerecht an gewissen
+  ideell unterstützen, insbesondere andere Förderorganisationen und
+  Bildungsinstitutionen (z.B. Universitäten). Sie haben kein Stimm- und
+  Wahlrecht, besitzen jedoch ein Teilnahmerecht an gewissen
   Veranstaltungen des Vereins.
 
+Aktuell durch den Verein geförderte Gründerinnen und Gründer sind
+**nicht** Mitglieder (vgl. Art. 3) — die Passivmitgliedschaft ist den
+Unterstützern vorbehalten, nicht den Geförderten selbst. Ehemalige
+Geförderte können, nachdem ihre Förderung eine Weile zurückliegt, als
+Unterstützer Passivmitglieder werden; ein solches Alumni-Programm muss
+nicht formell in diesen Statuten geregelt werden — siehe
+`participants/alumni.md`.
+
 *Ordinary members have full voting rights; passive members (financial or
-moral supporters, including other promotional organizations, educational
-institutions, and founders) have no voting rights but may attend certain
-events.*
+moral supporters, in particular other promotional organizations and
+educational institutions such as universities) have no voting rights but
+may attend certain events. Founders currently being supported are **not**
+members (see Art. 3) — passive membership is reserved for supporters, not
+beneficiaries. Former beneficiaries may become passive members as
+supporters once their support period is behind them; this alumni path
+doesn't need to be formally regulated in these statutes — see
+`participants/alumni.md`.*
 
 ### Art. 5 Erwerb der Mitgliedschaft — Acquisition of Membership
 

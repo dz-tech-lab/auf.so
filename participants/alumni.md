@@ -14,9 +14,20 @@ linked profile and issue.
 
 ## Alumni network
 
-[TBD — does Auf maintain an ongoing relationship with alumni, e.g. as
-future mentors or donors? If so, note the process here and cross-link to
-`participants/mentors.md` or `donors/strategy.md` as appropriate.]
+Yes — per legal counsel's review of the statutes (see
+`governance/statutes.md` Art. 4), a former beneficiary may become a
+**passive member** (supporter) once their support period is behind
+them. This is deliberate: passive membership is reserved for
+supporters, not for people currently being funded, since the
+association's tax-exempt purpose requires beneficiaries and members to
+be distinct groups. The transition from "supported founder" to
+"supporter" is intentionally kept informal/non-statutory — no formal
+alumni-program rules need to live in the statutes themselves.
+
+Beyond formal (passive) membership, alumni are also a natural pool for
+future mentors (`participants/mentors.md`) and donors
+(`donors/strategy.md`) — process for approaching alumni for either role
+is otherwise `[TBD]`.
 
 ## Reminder
 

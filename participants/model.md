@@ -22,6 +22,23 @@ makes sense for that cohort. Tracks seen so far or anticipated include:
 When defining a cohort (see `planning/`), state its actual track mix
 explicitly rather than assuming the two obvious categories.
 
+## Not limited to current students
+
+Eligibility is **not limited to currently enrolled students** — recent
+graduates and alumni are explicitly in scope too (e.g. someone a few
+years out of ETH, or a first-time founder with an unrelated career
+already behind them, is as much a candidate as someone still enrolled).
+Per legal counsel's review for the tax-exemption application, keeping
+the beneficiary circle open like this (rather than narrowing it to
+"students") is also what the gemeinnützig assessment wants to see — see
+`governance/tax-status.md`. Cohort profile descriptions (e.g. "desired
+profile" writeups used in fundraising or the tax filing) should be
+framed as an aspirational/illustrative sketch of who Auf hopes to
+support, not a closed list of the only people who qualify — and should
+keep the focus on technologically/scientifically demanding ventures
+("hard science") without narrowing to a single credential type (e.g.
+competition medals) as if it were a checklist.
+
 ## What varies by track / cohort
 
 - **Support package** — see `participants/support-offered.md`; not every

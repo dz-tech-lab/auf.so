@@ -50,12 +50,59 @@ the Steueramt:
   actually hold startup equity) that only make sense to answer once the
   association is operating.
 
+## External counsel review (2026-07-16)
+
+Schellenberg Wittmer (Lorenza Cavigelli, Marcel Jakob, Sahra Cade)
+reviewed the tax exemption application, a "Statement of Purpose"
+document, and the budget, and sent back marked-up versions by email.
+**Only their prose recommendations made it into this repo — the actual
+edited attachments (`Tax Exemption Application 2026_bearbeitet.pdf`,
+`Statement of Purpose_Auf.pdf`, `Auf-budget2026-2028.xlsx`) weren't
+included when this was forwarded to me.** If those are shared, I can
+cross-check this repo's copies against counsel's actual tracked
+changes rather than my re-implementation of their prose notes.
+
+What I applied from their feedback:
+
+- **Passive membership**: counsel flagged that currently-supported
+  founders were listed as eligible passive members in Art. 4 — which
+  undermines the requirement that beneficiaries and members be
+  distinct. Fixed in `governance/statutes.md` Art. 4; former
+  beneficiaries can informally become supporters/passive members later
+  (see `participants/alumni.md`).
+- **Open beneficiary group / "hard science" framing**: reflected in
+  `participants/model.md` (not limited to enrolled students; cohort
+  profile write-ups should read as illustrative, not a closed list).
+- **Budget**: added a grants-to-beneficiaries expense line and revised
+  office costs — see `operations/budget-2026-2028.md`.
+
+What I could **not** apply, for lack of the source document:
+
+- A **"Statement of Purpose"** document is referenced repeatedly
+  (sections like "Member Profiles" → rename to "Beneficiary Profiles",
+  "Cohort Composition" → reframe as "Desired Profile", remove a
+  planning-template disclaimer footer, submit in German too) — **this
+  document doesn't exist anywhere in this repo and wasn't attached**.
+  If it should live here, tell me where (a new file under `governance/`
+  or `strategy/`?) and share its content so I can apply the specific
+  renames/restructuring counsel asked for.
+- The **tax exemption form's** own tracked-changes wording (counsel
+  said they edited the PDF directly) — I don't have that file, so
+  `governance/tax-exemption-application-2026.pdf` in this repo hasn't
+  been updated to match their specific edits.
+- Counsel's email refers to the client consistently as **"Antimatter"**
+  and one attachment is titled "Statement of Purpose**_Auf**" —
+  consistent with "Antimatter" being the legal name and "Auf" the
+  public brand, reinforcing (but not resolving) the flag in
+  `governance/statutes.md`.
+
 ## Application tracker
 
 | Step | Status | Date | Notes |
 |---|---|---|---|
 | Statutes finalized (prerequisite) | in progress — draft exists, not adopted | [TBD] | See the open name-mismatch flag in `governance/statutes.md` |
 | Application form drafted | done (draft) | 2026-07-07 | See `governance/tax-exemption-application-2026.pdf`; needs the review above before submission |
+| External counsel review received | done | 2026-07-16 | Schellenberg Wittmer — see "External counsel review" above; some of their edits (the actual redlined attachments) are not yet reflected here |
 | Application submitted to cantonal tax authority | not started | [TBD] | |
 | Follow-up / clarification requests | n/a | [TBD] | |
 | Decision received | pending | [TBD] | |
@@ -91,3 +138,12 @@ Reference this status (once confirmed) in
 - [ ] Have tax counsel confirm the purpose clause's start-up investment
   language doesn't jeopardize questions 1.1/1.6/1.7/1.8 on the
   exemption form.
+- [ ] Share counsel's actual redlined attachments (tax exemption form,
+  Statement of Purpose, budget) so this repo's copies can be
+  cross-checked against their real tracked changes.
+- [ ] Confirm whether a "Statement of Purpose" document should exist in
+  this repo, and if so where — it's referenced in counsel's feedback
+  but isn't part of this repo today.
+- [ ] Confirm whether "Auf" is meant to be a registered operating
+  name alongside the legal name "Antimatter" (see
+  `governance/statutes.md`).
