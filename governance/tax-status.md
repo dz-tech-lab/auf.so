@@ -17,15 +17,15 @@ donors and foundations. It typically requires:
   — see `governance/statutes.md` Art. 18 (Auflösungsklausel)
 - activity that actually matches the stated purpose in practice
 
-## Draft application on file
+## Filed with the cantonal tax authority
 
-A draft of the cantonal form (`Gesuch um Befreiung von der
-Steuerpflicht — Gemeinnützige Zwecke`, Kanton Zürich) is attached at
-[`governance/tax-exemption-application-2026.pdf`](tax-exemption-application-2026.pdf).
-**As of 2026-07-17 this reflects external counsel's (Schellenberg
-Wittmer) own edited wording for section 2** — their redlined version was
-shared and applied directly (see below), not just their prose summary.
-**Still a draft, not submission-ready:**
+**The application was submitted on 2026-07-20.** The version on file at
+[`governance/tax-exemption-application-2026.pdf`](tax-exemption-application-2026.pdf)
+reflects external counsel's (Schellenberg Wittmer) own edited wording
+for section 2 — their redlined version was shared and applied directly
+(see below), not just their prose summary. The following were open
+at the time of filing and are worth keeping in mind while a decision is
+pending:
 
 - Have someone with tax expertise (board treasurer and/or external
   counsel) sanity-check questions **1.1, 1.6, 1.7, and 1.8** on the form
@@ -107,8 +107,8 @@ draft statutes at the time, not a separate legal name.
 | Application form drafted | done — now reflects counsel's redlines | 2026-07-17 | See `governance/tax-exemption-application-2026.pdf` |
 | External counsel review received | done | 2026-07-16 | Schellenberg Wittmer |
 | Counsel's redlined attachments applied | done | 2026-07-17 | Tax exemption form, Statement of Purpose, budget — see "External counsel review" above |
-| Application submitted to cantonal tax authority | not started | [TBD] | |
-| Follow-up / clarification requests | n/a | [TBD] | |
+| Application submitted to cantonal tax authority | done | 2026-07-20 | Filed even though the statutes weren't yet formally adopted at a Gründungsversammlung (see the row above) — noted for the record, not a blocker the founding team asked to revisit. |
+| Follow-up / clarification requests | pending | [TBD] | |
 | Decision received | pending | [TBD] | |
 | Status confirmed | pending | [TBD] | |
 

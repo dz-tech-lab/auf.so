@@ -18,6 +18,17 @@ Authoritative signing-authority status as registered with the commercial
 register / bank, if applicable, lives in
 `governance/entity-registry.md` — this table should always match it.
 
+## Informal advisors
+
+Not board members, not statutory roles under `governance/statutes.md`
+— no voting or signing authority. Listed here for continuity/context
+only.
+
+| Name | Affiliation | Since |
+|---|---|---|
+| Gregory Inauen | Grape Health | 2026-07 |
+| Jan Schnyder | Nunu AI | 2026-07 |
+
 ## Roles
 
 - **President**: chairs board meetings and the GA, primary external
